@@ -36,5 +36,5 @@ WHERE preco < 500;
 
 -- Atualização de um registro
 UPDATE tb_mercadoLivre
-SET preco = 550.00
+SET preco = 15.00
 WHERE id = 1;
