@@ -23,3 +23,18 @@ VALUES ("Chaveiro",13432,10.00,"Acessorios"),
        ("Calça cargo",13432,10.00,"Roupa");
 
 SELECT * FROM tb_mercadoLivre;
+
+-- Produtos com preço maior que 500
+SELECT *
+FROM tb_mercadoLivre
+WHERE preco > 500;
+
+-- Produtos com preço menor que 500
+SELECT *
+FROM tb_mercadoLivre
+WHERE preco < 500;
+
+-- Atualização de um registro
+UPDATE tb_mercadoLivre
+SET preco = 550.00
+WHERE id = 1;
